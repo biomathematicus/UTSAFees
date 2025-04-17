@@ -1,6 +1,6 @@
 # UTSA Course Fees Dashboard
 
-This project provides a data processing pipeline and interactive visualization tool for analyzing course fees at the University of Texas at San Antonio (UTSA). It includes Python scripts for data conversion and aggregation, and a web-based interface for visual analysis.
+This project provides a data processing pipeline and interactive visualization tool for analyzing course fees at the University of Texas at San Antonio (UTSA). It includes Python scripts for data conversion and aggregation, and a web-based interface for visual analysis. **This project is internal to UTSA. No data is available to the public**.
 
 ## Components
 
@@ -8,7 +8,7 @@ This project provides a data processing pipeline and interactive visualization t
 This Python script converts Excel spreadsheets containing course data into structured, newline-delimited JSON (NDJSON) files.
 
 **Inputs:**
-- A file named `UTSA.xlsx` containing multiple semester tabs.
+- A file named `UTSA.xlsx` containing multiple semester tabs. Each semester data in the spreadseet is obtained from the UTSA's Report Center > Registration Cycle > Course Availability
 
 **Outputs:**
 - A `.ndjson` file for each semester listed in the script.
